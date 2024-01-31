@@ -4,7 +4,8 @@ Evaluación sobre uso de git para manejo de repositorios. Se espera que el estud
 
 # EVALUACIÓN 1
 31 de enero de 2024, he realizado cambios en el codigo  de fuente el cual presentaba problemas en la estructura del código 
-![Foto primer commit]("C:\Users\Samuel\OneDrive\Imágenes\Fotos para FunProg\git 1st commit.jpg")
+
+![Foto primer commit](<git 1st commit.jpg>)
 
 [Lista codigos  para git](https://education.github.com/git-cheat-sheet-education.pdf)
 
