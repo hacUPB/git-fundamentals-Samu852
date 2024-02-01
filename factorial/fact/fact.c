@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[]) {
     if (argc < 2) {
-        fprixntf(stderr,"Usage: program <number>\n");
+        fprintf(stderr,"Usage: program <number>\n");
         return 1;
     }
     
