@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[]) {
     if (argc < 2) {
-        fprintf(stderr,"Usage: program <number>\n");
+     fprintf(stderr,"Usage: program <number>\n");
         return 1;
     }
     
@@ -30,6 +30,25 @@ int main(int argc, char *argv[]) {
     /*Print the result*/
     
     /*Implement the function that calculates if the argument is a prime number*/
+    int count = 0,index = 1;
+    while (index < number)
+    {
+        if(number%index == 0)
+            {
+            count++;
+            }
+        index++;
+    }
+    
+    /*Print the result*/
+    if(count == 1)
+    {
+        printf("%d is a prime number\n",number);
+    }
+    else
+    {
+        printf("%d is not a prime number\n",number);
+    }
 
     /*Print the result*/
     
