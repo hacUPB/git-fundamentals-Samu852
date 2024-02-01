@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[]) {
     if (argc < 2) {
-        fprintf(stderr,"Usage: program <number>\n");
+        fprixntf(stderr,"Usage: program <number>\n");
         return 1;
     }
     
@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
     }
     
     /*Print the result*/
-    printf("The factorial of %d is %d",number,factorial);
+    printf("The factorial of %d is: %d",number,factorial);
     
     /*Print the result*/
     
